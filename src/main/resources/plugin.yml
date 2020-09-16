@@ -1,0 +1,14 @@
+name: TextPlaceholders
+version: ${project.version}
+main: com.plexiate.textplaceholders.TextPlaceholders
+api-version: 1.13
+depend: [PlaceholderAPI]
+authors: [Sek, Ehh]
+commands:
+  textplaceholders:
+    description: Main command.
+    aliases: [textph]
+permissions:
+  textplaceholders.admin:
+    description: Access to /textplaceholders.
+    default: op
